@@ -1,0 +1,26 @@
+{
+  "name": "TaskManager",
+  "version": "1.0.0",
+  "description": "'A simple task manager'",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node node_modules/electron-prebuilt/cli.js .",
+    "build":"node node_modules/gulp/bin/gulp.js"
+  },
+  "keywords": [
+    "todo","task"
+  ],
+  "author": "Kevin",
+  "license": "MIT",
+  "dependencies": {
+    "material-ui": "^0.12.3",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.33.7",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-stylus": "^2.1.0"
+  }
+}

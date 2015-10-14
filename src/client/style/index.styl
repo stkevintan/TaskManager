@@ -1,0 +1,54 @@
+@font-face
+    font-family: 'Material Icons'
+    font-style: normal
+    font-weight: 400
+    src: local('Material Icons'), local('MaterialIcons-Regular'),url('../font/material-icons.woff2') format('woff2')
+
+.material-icons
+    font-family: 'Material Icons'
+    font-weight: normal
+    font-style: normal
+    font-size: 24px
+    line-height: 1
+    letter-spacing: normal
+    text-transform: none
+    display: inline-block
+    white-space: nowrap
+    word-wrap: normal
+    direction: ltr
+    -webkit-font-feature-settings: 'liga'
+    -webkit-font-smoothing: antialiased
+//reset
+*
+    margin:0;
+    padding:0;
+
+.taskWrapper
+    padding: 20px 20px 0 20px
+    height: calc(100% - 76px)
+    overflow:auto
+
+html,body,.wrapper
+    height:100%;
+
+.view
+    height:calc(100% - 64px)
+
+.taskList li
+    margin-bottom:20px
+
+.task-enter
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+
+.task-enter.task-enter-active {
+  opacity: 1;
+}
+.task-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.task-leave.task-leave-active {
+  opacity: 0.01;
+}
